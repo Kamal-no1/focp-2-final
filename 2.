@@ -9,7 +9,7 @@ private:
     string name, id, contact;
     int age;
 public:
-    Person(string n = "", int a = 0, string i = "", string c = "") {
+    Person(string n = "", int a = 0, string i = "", string c = "") { 
         setName(n);
         setAge(a);
         id = i;
